@@ -12,11 +12,11 @@ package modelo;
 public class Escopeta extends Arma{
     
     public Escopeta (){
-        super(7, 2);
+        super(5, 1);
     }
-    
     @Override
     public void ataque(){
         for(int i = 0;i<danyo;i++) System.out.println(" x ");
     }
+    
 }
