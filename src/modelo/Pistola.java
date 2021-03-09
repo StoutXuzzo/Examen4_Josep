@@ -19,4 +19,5 @@ public class Pistola extends Arma{
     public void ataque(){
         for(int i = 0;i<danyo;i++) System.out.println(" x ");
     }
+    // ESTO ES UN COMENTARIO PARA GH
 }
